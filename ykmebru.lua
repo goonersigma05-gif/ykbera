@@ -2,7 +2,8 @@
     		yerba interface
 
     creator: n-0clip - modfied by juggmylarping .gg/winhvh
-    original: yerba externa
+    original: yerba external
+
         ver: 1.4
 	-- nothing new :(
 
@@ -1151,7 +1152,7 @@ function Yerba:CreateWindow(title, subtitle, options)
 				Parent = parentColumn
 			})
 			AddCorner(SectionFrame, 6)
-			AddStroke(SectionFrame, Theme.AccentBlue)
+			AddStroke(SectionFrame, Theme.AccentBlue, 1)
 
 			local Header = Create("Frame", {
 				Name = "Upframe",
