@@ -1,7 +1,7 @@
 --[[
     		yerba interface
 
-    creator: n-0clip
+    creator: n-0clip - modfied by juggmylarping .gg/winhvh
     original: yerba external
 
         ver: 1.4
@@ -14,7 +14,7 @@ local Yerba = {
 	Logo = "rbxassetid://74807357385705",
 	Windows = {},
 	Scale = {
-		Window = UDim2.new(0, 420, 0, 350),
+		Window = UDim2.new(0, 520, 0, 420),
 		TabOpen = 185,
 		TabClose = 85,
 		TopBar = 50,
@@ -50,24 +50,24 @@ local Theme = {
 	Secondary = Color3.fromRGB(18, 18, 18),
 	Tertiary = Color3.fromRGB(24, 24, 24),
 	TopBar = Color3.fromRGB(32, 32, 32),
-	Accent = Color3.fromRGB(82, 106, 117),
-	AccentDark = Color3.fromRGB(42, 55, 61),
-	AccentMid = Color3.fromRGB(81, 105, 116),
-	AccentBlue = Color3.fromRGB(7, 101, 160),
-	Border = Color3.fromRGB(43, 43, 43),
-	BorderAccent = Color3.fromRGB(17, 41, 71),
+	Accent = Color3.fromRGB(100, 170, 220),
+	AccentDark = Color3.fromRGB(60, 100, 140),
+	AccentMid = Color3.fromRGB(100, 160, 200),
+	AccentBlue = Color3.fromRGB(80, 150, 230),
+	Border = Color3.fromRGB(60, 60, 60),
+	BorderAccent = Color3.fromRGB(80, 150, 230),
 	Text = Color3.fromRGB(191, 187, 191),
 	TextDark = Color3.fromRGB(154, 151, 154),
 	TextDarker = Color3.fromRGB(129, 129, 129),
 	Divider = Color3.fromRGB(61, 67, 76),
 	TabFrame = Color3.fromRGB(28, 28, 26),
 	Stroke = Color3.fromRGB(33, 31, 33),
-	Blue = Color3.fromRGB(67, 144, 186),
-	Enabled = Color3.fromRGB(67, 144, 186),
+	Blue = Color3.fromRGB(100, 170, 220),
+	Enabled = Color3.fromRGB(100, 170, 220),
 	Disabled = Color3.fromRGB(24, 24, 24),
 	Hover = Color3.fromRGB(35, 35, 35),
 	DotPattern = Color3.fromRGB(20, 23, 21),
-	DotHover = Color3.fromRGB(67, 144, 186)
+	DotHover = Color3.fromRGB(100, 170, 220)
 }
 
 local function Create(instanceType, properties, children)
