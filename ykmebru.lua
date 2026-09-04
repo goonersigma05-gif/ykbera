@@ -3500,7 +3500,7 @@ function Yerba:CreateWindow(title, subtitle, options)
 			Parent = ScreenGui
 		})
 		AddCorner(Watermark, 4)
-		AddStroke(Watermark, Color3.fromRGB(47, 61, 67))
+		AddStroke(Watermark, Theme.AccentBlue, 1)
 
 		Create("ImageLabel", {
 			Name = "Icon",
@@ -3623,7 +3623,7 @@ function Yerba:CreateWindow(title, subtitle, options)
 			Parent = ScreenGui
 		})
 		AddCorner(KeybindsFrame, 2)
-		AddStroke(KeybindsFrame, Theme.BorderAccent)
+		AddStroke(KeybindsFrame, Theme.AccentBlue, 1)
 
 		local Header = Create("TextLabel", {
 			Name = "Name",
