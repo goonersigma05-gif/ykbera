@@ -14,7 +14,7 @@ local Yerba = {
 	Logo = "rbxassetid://74807357385705",
 	Windows = {},
 	Scale = {
-		Window = UDim2.new(0, 520, 0, 420),
+		Window = UDim2.new(0, 620, 0, 480),
 		TabOpen = 185,
 		TabClose = 85,
 		TopBar = 50,
@@ -334,7 +334,7 @@ function Yerba:CreateWindow(title, subtitle, options)
 		Parent = ScreenGui
 	})
 	AddCorner(MainWindow, 6)
-	AddStroke(MainWindow, Theme.BorderAccent)
+	AddStroke(MainWindow, Theme.AccentBlue)
 
 	AddDotPattern(MainWindow, true)
 
@@ -1152,7 +1152,7 @@ function Yerba:CreateWindow(title, subtitle, options)
 				Parent = parentColumn
 			})
 			AddCorner(SectionFrame, 6)
-			AddStroke(SectionFrame, Theme.Border)
+			AddStroke(SectionFrame, Theme.AccentBlue)
 
 			local Header = Create("Frame", {
 				Name = "Upframe",
@@ -3119,7 +3119,7 @@ function Yerba:CreateWindow(title, subtitle, options)
 			Parent = ScreenGui
 		})
 		AddCorner(PlayerListFrame, 5)
-		AddStroke(PlayerListFrame, Theme.Border)
+		AddStroke(PlayerListFrame, Theme.AccentBlue)
 
 		local function UpdatePosition()
 			local windowPos = MainWindow.AbsolutePosition
@@ -3190,7 +3190,7 @@ function Yerba:CreateWindow(title, subtitle, options)
 			Parent = PlayerListFrame
 		})
 		AddCorner(ListSection, 4)
-		AddStroke(ListSection, Theme.Border)
+		AddStroke(ListSection, Theme.AccentBlue)
 
 		local ListHeader = Create("TextLabel", {
 			Name = "TabName",
@@ -3237,7 +3237,7 @@ function Yerba:CreateWindow(title, subtitle, options)
 			Parent = PlayerListFrame
 		})
 		AddCorner(DetailSection, 4)
-		AddStroke(DetailSection, Theme.Border)
+		AddStroke(DetailSection, Theme.AccentBlue)
 
 		local DetailHeader = Create("TextLabel", {
 			Name = "TabName",
