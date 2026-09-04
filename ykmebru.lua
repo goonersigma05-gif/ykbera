@@ -3467,7 +3467,7 @@ function Yerba:CreateWindow(title, subtitle, options)
 			Create("GetTextBoundsParams", {
 				Text = wmTitle,
 				Font = Fonts.ComicNeue,
-				Size = 20,
+				Size = 14,
 				Width = 1000
 			})
 		)
@@ -3476,18 +3476,18 @@ function Yerba:CreateWindow(title, subtitle, options)
 			Create("GetTextBoundsParams", {
 				Text = wmSubtitle,
 				Font = Fonts.ComicNeue,
-				Size = 20,
+				Size = 14,
 				Width = 1000
 			})
 		)
 
-		local iconWidth = 38
-		local dividerWidth = 10
-		local padding = 5
+		local iconWidth = 28
+		local dividerWidth = 8
+		local padding = 4
 
 		local titleWidth = titleSize.X + padding * 2
 		local subtitleWidth = subtitleSize.X + padding * 2
-		local fpsWidth = 70
+		local fpsWidth = 55
 
 		local totalWidth = iconWidth + dividerWidth + titleWidth + dividerWidth + subtitleWidth + dividerWidth + fpsWidth
 
@@ -3495,7 +3495,7 @@ function Yerba:CreateWindow(title, subtitle, options)
 			Name = "Watermark",
 			BackgroundColor3 = Theme.Tertiary,
 			BorderSizePixel = 0,
-			Size = UDim2.new(0, totalWidth, 0, 36),
+			Size = UDim2.new(0, totalWidth, 0, 26),
 			Position = UDim2.new(0, 10, 0, 10),
 			Parent = ScreenGui
 		})
@@ -3506,7 +3506,7 @@ function Yerba:CreateWindow(title, subtitle, options)
 			Name = "Icon",
 			BackgroundTransparency = 1,
 			Image = wmLogo,
-			Size = UDim2.new(0, 34, 0, 34),
+			Size = UDim2.new(0, 24, 0, 24),
 			Position = UDim2.new(0, 1, 0, 1),
 			Parent = Watermark
 		})
@@ -3530,7 +3530,7 @@ function Yerba:CreateWindow(title, subtitle, options)
 			FontFace = Fonts.ComicNeue,
 			Text = wmTitle,
 			TextColor3 = Theme.TextDark,
-			TextSize = 20,
+			TextSize = 14,
 			Size = UDim2.new(0, titleWidth, 1, 0),
 			Position = UDim2.new(0, titleX, 0, 0),
 			Parent = Watermark
@@ -3542,7 +3542,7 @@ function Yerba:CreateWindow(title, subtitle, options)
 			FontFace = Fonts.ComicNeue,
 			Text = wmSubtitle,
 			TextColor3 = Theme.TextDark,
-			TextSize = 20,
+			TextSize = 14,
 			Size = UDim2.new(0, subtitleWidth, 1, 0),
 			Position = UDim2.new(0, subtitleX, 0, 0),
 			Parent = Watermark
@@ -3554,7 +3554,7 @@ function Yerba:CreateWindow(title, subtitle, options)
 			FontFace = Fonts.ComicNeue,
 			Text = "60 fps",
 			TextColor3 = Theme.TextDark,
-			TextSize = 20,
+			TextSize = 14,
 			Size = UDim2.new(0, fpsWidth, 1, 0),
 			Position = UDim2.new(0, fpsX, 0, 0),
 			Parent = Watermark
