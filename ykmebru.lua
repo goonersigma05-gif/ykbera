@@ -18,7 +18,7 @@ local Yerba = {
 		TabOpen = 185,
 		TabClose = 85,
 		TopBar = 50,
-		SectionWidth = 290,
+		SectionWidth = 275,
 		SectionGap = 10,
 		ContentPadding = 12,
 	},
