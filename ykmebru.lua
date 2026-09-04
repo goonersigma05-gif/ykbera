@@ -2,8 +2,7 @@
     		yerba interface
 
     creator: n-0clip - modfied by juggmylarping .gg/winhvh
-    original: yerba external
-
+    original: yerba externa
         ver: 1.4
 	-- nothing new :(
 
